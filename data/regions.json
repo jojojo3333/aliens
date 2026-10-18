@@ -1,0 +1,53 @@
+{
+  "regions": [
+    {
+      "id": "rhine",
+      "name": "Rhine Corridor",
+      "pos": [0.42, 0.47],
+      "neighbors": ["northsea", "baltic", "alpine"],
+      "contacted": true,
+      "strength": 2,
+      "haven": {"name": "Koblenz Undercroft", "intel": 4, "supply": 4}
+    },
+    {
+      "id": "northsea",
+      "name": "Northsea Delta",
+      "pos": [0.22, 0.22],
+      "neighbors": ["rhine", "baltic"],
+      "contacted": false,
+      "strength": 3
+    },
+    {
+      "id": "baltic",
+      "name": "Baltic Reach",
+      "pos": [0.70, 0.18],
+      "neighbors": ["northsea", "rhine", "carpathian"],
+      "contacted": false,
+      "strength": 3
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine Line",
+      "pos": [0.50, 0.76],
+      "neighbors": ["rhine", "iberian", "carpathian"],
+      "contacted": false,
+      "strength": 4
+    },
+    {
+      "id": "iberian",
+      "name": "Iberian Coast",
+      "pos": [0.14, 0.80],
+      "neighbors": ["alpine"],
+      "contacted": false,
+      "strength": 2
+    },
+    {
+      "id": "carpathian",
+      "name": "Carpathian Belt",
+      "pos": [0.84, 0.58],
+      "neighbors": ["baltic", "alpine"],
+      "contacted": false,
+      "strength": 3
+    }
+  ]
+}

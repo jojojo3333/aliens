@@ -1,0 +1,12 @@
+{
+  "soldiers": [
+    {"id": "okafor", "first": "Ada", "last": "Okafor", "class": "technician", "xp": 5},
+    {"id": "brandt", "first": "Jonas", "last": "Brandt", "class": "gunner", "xp": 2},
+    {"id": "hale", "first": "Mira", "last": "Hale", "class": "scout", "xp": 2},
+    {"id": "ruiz", "first": "Tomás", "last": "Ruiz", "class": "rifleman", "xp": 0},
+    {"id": "chen", "first": "Wei", "last": "Chen", "class": "rifleman", "xp": 0},
+    {"id": "novak", "first": "Pavel", "last": "Novak", "class": "gunner", "xp": 0},
+    {"id": "sato", "first": "Rin", "last": "Sato", "class": "scout", "xp": 0},
+    {"id": "achterberg", "first": "Lena", "last": "Achterberg", "class": "technician", "xp": 0}
+  ]
+}

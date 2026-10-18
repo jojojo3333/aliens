@@ -1,0 +1,37 @@
+{
+  "max_rounds": 6,
+  "hit_min": 5,
+  "hit_max": 95,
+  "crit_chance": 0.1,
+  "crit_bonus": 2,
+
+  "ambush_aim": 15,
+  "surprise_aim": 20,
+
+  "overinfiltration_step": 0.5,
+  "overinfiltration_max_removed": 2,
+  "reinforce_step": 0.25,
+  "reinforce_max": 3,
+  "enemies_first_below": 0.5,
+
+  "withdraw_aim_penalty": 20,
+  "cautious_hp_loss": 0.34,
+
+  "stabilize_chance": 0.6,
+  "stabilize_bonus_victory": 0.2,
+
+  "roe": {
+    "cautious": {
+      "name": "Cautious",
+      "brief": "Pull out the moment anyone goes down, or once the squad has lost a third of its health."
+    },
+    "standard": {
+      "name": "Standard",
+      "brief": "Pull out if half the squad is down, or if outnumbered after the first exchange."
+    },
+    "hold": {
+      "name": "Hold",
+      "brief": "No retreat. Win, or lose everyone who went."
+    }
+  }
+}

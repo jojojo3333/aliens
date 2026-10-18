@@ -1,0 +1,34 @@
+{
+  "templates": {
+    "patrol_ambush": {
+      "name": "Patrol Ambush",
+      "brief": "A Warden patrol is sweeping the outskirts toward the haven. Catch it on the road before it gets there.",
+      "weight": 3,
+      "duration_hours": [66, 90],
+      "detection_cost": [50, 80],
+      "infiltration_hours": 40,
+      "enemies": {
+        "core": ["warden", "warden"],
+        "extras": {"sentry_drone": 3, "mimic": 2, "warden": 1},
+        "extra_count": [0, 2]
+      },
+      "reinforcements": ["warden", "sentry_drone"],
+      "rewards": {"supplies": 30, "intel": 6}
+    },
+    "depot_raid": {
+      "name": "Depot Raid",
+      "brief": "A Custodian ration depot on the rail line. Drones overhead, a Warden at the gate. Strip it and get out.",
+      "weight": 2,
+      "duration_hours": [90, 120],
+      "detection_cost": [70, 110],
+      "infiltration_hours": 52,
+      "enemies": {
+        "core": ["warden", "sentry_drone", "sentry_drone"],
+        "extras": {"sentry_drone": 2, "warden": 2, "mimic": 1},
+        "extra_count": [1, 2]
+      },
+      "reinforcements": ["sentry_drone", "warden"],
+      "rewards": {"supplies": 55, "intel": 4}
+    }
+  }
+}

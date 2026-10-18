@@ -1,0 +1,16 @@
+# Pinned engine binary, fetched by tools/setup_godot.sh
+.godot-bin/
+
+# Godot's import cache and editor state
+.godot/
+
+# export_presets.cfg is deliberately NOT ignored: CI cannot export without it,
+# and the web build is produced by CI. It carries no secrets.
+
+# Build output
+build/
+*.zip
+
+# OS noise
+.DS_Store
+Thumbs.db

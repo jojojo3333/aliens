@@ -1,0 +1,9 @@
+{
+  "ranks": [
+    {"name": "Rookie", "abbr": "Rk.", "xp": 0, "aim": 0, "hp": 0},
+    {"name": "Private", "abbr": "Pvt.", "xp": 2, "aim": 3, "hp": 0},
+    {"name": "Corporal", "abbr": "Cpl.", "xp": 5, "aim": 5, "hp": 1},
+    {"name": "Sergeant", "abbr": "Sgt.", "xp": 9, "aim": 8, "hp": 1},
+    {"name": "Lieutenant", "abbr": "Lt.", "xp": 14, "aim": 10, "hp": 2}
+  ]
+}

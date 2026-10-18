@@ -1,0 +1,32 @@
+{
+  "classes": {
+    "rifleman": {
+      "name": "Rifleman",
+      "hp": 6, "aim": 70, "defense": 5, "armor": 0,
+      "damage": [3, 5], "pierce": 0, "bonus_vs": {},
+      "spotter": false, "stealth": 0.0,
+      "perk": "No speciality. The steadiest aim on the roster."
+    },
+    "gunner": {
+      "name": "Gunner",
+      "hp": 7, "aim": 62, "defense": 0, "armor": 0,
+      "damage": [4, 6], "pierce": 1, "bonus_vs": {},
+      "spotter": false, "stealth": 0.0,
+      "perk": "Shred: ignores 1 armour."
+    },
+    "technician": {
+      "name": "Technician",
+      "hp": 5, "aim": 66, "defense": 5, "armor": 0,
+      "damage": [3, 4], "pierce": 0, "bonus_vs": {"mech": 2},
+      "spotter": false, "stealth": 0.0,
+      "perk": "EMP rounds: +2 damage against mechs."
+    },
+    "scout": {
+      "name": "Scout",
+      "hp": 5, "aim": 70, "defense": 15, "armor": 0,
+      "damage": [3, 4], "pierce": 0, "bonus_vs": {},
+      "spotter": true, "stealth": 0.15,
+      "perk": "Spots disguised Mimics. Each Scout cuts infiltration time by 15%."
+    }
+  }
+}

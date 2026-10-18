@@ -1,0 +1,28 @@
+{
+  "enemies": {
+    "warden": {
+      "name": "Warden",
+      "hp": 7, "aim": 62, "defense": 5, "armor": 1,
+      "damage": [3, 4],
+      "tags": ["mech"],
+      "disguised": false,
+      "brief": "Bipedal security mech. Armoured, patient, slow."
+    },
+    "sentry_drone": {
+      "name": "Sentry Drone",
+      "hp": 4, "aim": 58, "defense": 20, "armor": 0,
+      "damage": [2, 3],
+      "tags": ["mech", "flying"],
+      "disguised": false,
+      "brief": "Rotor drone. Hard to hit, easy to break."
+    },
+    "mimic": {
+      "name": "Mimic",
+      "hp": 5, "aim": 72, "defense": 10, "armor": 0,
+      "damage": [4, 5],
+      "tags": ["infiltrator"],
+      "disguised": true,
+      "brief": "Infiltration android wearing a human face. Strikes first, at the weakest, unless a Scout spots it."
+    }
+  }
+}

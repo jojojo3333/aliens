@@ -1,0 +1,43 @@
+{
+  "title": "Killswitch",
+  "start": {"year": 2047, "month": 3, "day": 1, "hour": 6},
+
+  "supplies": 60,
+  "intel": 12,
+
+  "speeds": {"scan": 3.0, "fast": 12.0},
+
+  "intel_progress_per_rebel_hour": 1.0,
+  "intel_per_rebel_day": 2,
+  "supply_drop_base": 20,
+  "supply_per_rebel": 8,
+
+  "expiry_warning_hours": 12,
+  "spawn_chance_per_day": 0.35,
+
+  "squad": {
+    "min": 2,
+    "max": 6,
+    "size_factor": {"2": 0.55, "3": 0.75, "4": 1.0, "5": 1.3, "6": 1.65},
+    "stealth_cap": 0.3
+  },
+
+  "infiltration_cap": 2.0,
+  "reveal_cost": 10,
+  "boost_cost": 15,
+  "boost_amount": 0.25,
+  "boosts_per_operation": 1,
+
+  "wound_hours_per_hp": 30,
+  "grave_wound_hours": 240,
+
+  "assessment_runs": 80,
+
+  "first_mission": {
+    "template": "patrol_ambush",
+    "region": "rhine",
+    "enemies": ["warden", "mimic", "sentry_drone"],
+    "detection_cost": 60,
+    "duration_hours": 72
+  }
+}
